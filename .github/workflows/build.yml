@@ -30,6 +30,7 @@ jobs:
 
       - name: Build APK
         run: |
+          cd servis
           flet build apk --yes
 
       - name: Upload APK
