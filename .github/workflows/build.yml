@@ -26,7 +26,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install flet-cli
-          pip install -r servis/requirements.txt
 
       - name: Build APK
         run: |
